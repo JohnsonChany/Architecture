@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_set_pwd_one_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="@string/account"/>
+
+    <EditText
+        android:id="@+id/et_set_pwd_one"
+        style="@style/LoginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        android:inputType="number"
+        android:hint="@string/tips_set_pwd"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_large"
+        android:textColor="@color/colorAccent"
+        android:text="@string/verify"/>
+
+    <EditText
+        android:id="@+id/et_set_pwd_two"
+        style="@style/LoginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        android:inputType="number"
+        android:hint="@string/tips_confirm_pwd"/>
+
+    <TextView
+        android:id="@+id/btn_set_pwd_complete"
+        android:layout_width="match_parent"
+        style="@style/MainButton"
+        android:layout_marginTop="@dimen/common_margin_xx_large"
+        android:text="@string/complete"
+        android:enabled="false"/>
+
+</merge>

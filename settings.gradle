@@ -1,1 +1,2 @@
-include ':app', ':data', ':domain', ':lib_uiframework', ':lib_uikit', ':lib_component'
+include ':app', ':lib_di', ':data', ':domain', ':lib_component', ':lib_uiframework',
+        ':lib_uikit', ':lib_di'

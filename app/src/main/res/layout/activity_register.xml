@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jc.architecture.lib_uikit.TitleView
+        android:id="@+id/title_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.jc.architecture.lib_uikit.VerifyView
+        android:id="@+id/v_register_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_xx_large"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/common_margin_large"
+        android:textColor="@color/colorAccent"
+        android:text="@string/i_am"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg_register_identity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb_register_salesman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/salesman"/>
+
+        <RadioButton
+            android:id="@+id/rb_register_buyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/common_margin_xxx_large"
+            android:text="@string/buyer"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/common_margin_xx_large"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin">
+
+        <CheckBox
+            android:id="@+id/cb_read_TOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_tiny"
+            android:textColor="@color/text_color_gray"
+            android:text="@string/read_TOS"
+            android:checked="true"/>
+
+        <TextView
+            android:id="@+id/tv_TOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_tiny"
+            android:text="@string/TOS"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_register_next"
+        android:layout_width="match_parent"
+        style="@style/MainButton"
+        android:layout_marginTop="@dimen/common_margin_big"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:text="@string/next_step"
+        android:enabled="false"/>
+
+</LinearLayout>

@@ -1,3 +1,31 @@
 <resources>
-    <string name="app_name">Lib_uikit</string>
+
+    <string name="next_step">下一步</string>
+    <string name="complete">完成</string>
+
+    <!--user center-->
+    <string name="back">返回</string>
+    <string name="setting">设置</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account">登录名</string>
+    <string name="login_success">登录成功</string>
+    <string name="i_am">我是</string>
+    <string name="salesman">销售顾问</string>
+    <string name="buyer">买主</string>
+    <string name="read_TOS">我已阅读并同意汽车之邦</string>
+    <string name="TOS">《服务条款》</string>
+    <string name="pwd">密码</string>
+    <string name="forgot_pwd">忘记密码</string>
+    <string name="verify">验证码</string>
+    <string name="send_verify">发送验证码</string>
+    <string name="set_pwd">设置密码</string>
+    <string name="confirm_pwd">确认密码</string>
+
+    <!--tips-->
+    <string name="tips_account">注册时的手机号</string>
+    <string name="tips_verify">请输入验证码</string>
+    <string name="tips_set_pwd">请输入6&#8211;12位含数字和字母的密码</string>
+    <string name="tips_confirm_pwd">请再次输入密码</string>
+
 </resources>

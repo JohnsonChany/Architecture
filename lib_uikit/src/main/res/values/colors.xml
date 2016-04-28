@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ToolBar background color -->
+    <color name="colorPrimary">#3E934B</color>
+    <color name="colorPrimaryDark">#3E934B</color>
+    <!-- e.g ToolBar、EditText text color -->
+    <color name="textColorPrimary">#FFFFFF</color>
+    <!-- widget（as RadioButton...） color-->
+    <color name="colorAccent">#3E934B</color>
+
+    <!--主title背景-->
+    <color name="main_bg_title">#3E934B</color>
+    <!--主按钮背景色-->
+    <color name="main_bg_btn_enable">#E67C48</color>
+    <color name="main_bg_btn_not_enable">#787878</color>
+    <color name="main_bg_btn_pressed">#3E934B</color>
+
+    <!--主窗口背景-->
+    <color name="bg_main_win">#FFFFFF</color>
+    <!--登陆窗口背景-->
+    <color name="bg_login_win">#F4F9F5</color>
+    <!--主内容字体颜色-->
+    <color name="main_text_color">#000000</color>
+    <color name="text_color_gray">#555555</color>
+
+</resources>

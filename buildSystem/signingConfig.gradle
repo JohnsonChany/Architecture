@@ -1,0 +1,6 @@
+ext.signing = [
+        storeFile : '../buildSystem/debug.keystore',
+        storePassword : '123456',
+        keyAlias : 'debug',
+        keyPassword : '123456',
+]

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_find_pwd_v_phone_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/et_find_pwd_v_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        style="@style/LoginEditText"
+        android:inputType="number"
+        android:hint="@string/tips_account"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_large"
+        android:textColor="@color/colorAccent"
+        android:text="@string/verify"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin">
+
+        <EditText
+            android:id="@+id/et_find_pwd_v_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/LoginEditText"
+            android:inputType="number"
+            android:hint="@string/tips_verify"/>
+
+        <TextView
+            android:id="@+id/tv_find_pwd_v_send_verify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/et_find_pwd_v_pwd"
+            android:layout_alignBottom="@id/et_find_pwd_v_pwd"
+            android:paddingLeft="@dimen/common_margin"
+            android:paddingRight="@dimen/common_margin"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/send_verify"/>
+
+    </RelativeLayout>
+
+</merge>

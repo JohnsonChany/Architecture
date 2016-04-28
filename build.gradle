@@ -1,11 +1,13 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: 'buildsystem/dependency.gradle'
 
 buildscript {
     repositories {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0-rc3'
+        classpath 'com.android.tools.build:gradle:2.0.0'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -19,5 +21,18 @@ allprojects {
 }
 
 task clean(type: Delete) {
-    delete rootProject.buildDir
+//    delete rootProject.buildDir
+}
+
+project.ext {
+    applicationId = "com.jc.architecture"
+    buildToolsVersion = "23.0.3"
+    compileSdkVersion = 23
+    minSdkVersion = 14
+    targetSdkVersion = 23
+    versionCode = 1
+    versionName = "1.0.0"
+    abortOnLintError = false
+
+    javaVersion = JavaVersion.VERSION_1_8
 }

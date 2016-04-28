@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="end">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/account"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/et_login_v_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        style="@style/LoginEditText"
+        android:inputType="number"
+        android:text="18612827981"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/common_margin_large"
+        android:textColor="@color/colorAccent"
+        android:text="@string/pwd"/>
+
+    <EditText
+        android:id="@+id/et_login_v_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin"
+        style="@style/LoginEditText"
+        android:inputType="textPassword"
+        android:text="1111111"/>
+
+    <TextView
+        android:id="@+id/tv_login_v_forgot_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/common_margin"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingBottom="@dimen/common_margin"
+        android:text="@string/forgot_pwd"
+        android:textSize="@dimen/text_size_tiny"/>
+
+    <TextView
+        android:id="@+id/btn_login_v_do_login"
+        android:layout_width="match_parent"
+        style="@style/MainButton"
+        android:layout_marginTop="@dimen/common_margin_xx_large"
+        android:text="@string/login"
+        android:enabled="false"/>
+
+
+
+</merge>

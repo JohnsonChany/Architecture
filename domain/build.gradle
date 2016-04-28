@@ -1,5 +1,25 @@
 apply plugin: 'java'
 
+// 因为开发环境JDK为1.8，此处不指定为1.7运行时会报错。by JC 2016/1/31
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    provided rootProject.ext.libJavaxAnnotation
+    compile rootProject.ext.libRxJava
 }

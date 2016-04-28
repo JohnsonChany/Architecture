@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_margin_tiny">2dp</dimen>
+    <dimen name="common_margin_small">5dp</dimen>
+    <dimen name="common_margin">10dp</dimen>
+    <dimen name="common_margin_big">20dp</dimen>
+    <dimen name="common_margin_large">30dp</dimen>
+    <dimen name="common_margin_x_large">40dp</dimen>
+    <dimen name="common_margin_xx_large">60dp</dimen>
+    <dimen name="common_margin_xxx_large">100dp</dimen>
+
+    <dimen name="line">1px</dimen>
+    <dimen name="title_height">44dp</dimen>
+
+    <!--标题字体大小-->
+    <dimen name="text_size_title">18sp</dimen>
+    <!--主内容字体大小-->
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_tiny">12sp</dimen>
+
+    <!--EditText padding-->
+    <dimen name="edit_text_padding">10dp</dimen>
+
+</resources>

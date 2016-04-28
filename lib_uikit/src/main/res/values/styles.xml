@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--ToolBar background color-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--StatusBar color-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!-- ToolBar/EditText text color -->
+        <item name="android:textColorPrimary">@color/main_text_color</item>
+        <!-- widget(e.g. RadioButton...) color-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- content text color-->
+        <item name="android:textColor">@color/main_text_color</item>
+        <!-- content text size-->
+        <item name="android:textSize">@dimen/text_size</item>
+        <!-- default background color-->
+        <item name="android:windowBackground">@color/bg_main_win</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="LoginEditText">
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:padding">@dimen/edit_text_padding</item>
+    </style>
+
+    <style name="MainButton">
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:background">@drawable/bg_btn</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
